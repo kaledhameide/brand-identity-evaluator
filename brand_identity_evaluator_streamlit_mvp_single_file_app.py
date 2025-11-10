@@ -222,8 +222,8 @@ Output JSON only.
 # UI
 # -------------------------------
 
-st.set_page_config(page_title="Brand Identity Evaluator (MVP)", page_icon="👗", layout="centered")
-st.title("👗 Brand Identity Evaluator – MVP")
+st.set_page_config(page_title="Brand Identity Evaluator (by KKH)", page_icon="👗", layout="centered")
+st.title("👗 Brand Identity Evaluator – by KKH")
 st.caption("Upload your brand details, then get a score + rationale. Works with or without OpenAI.")
 
 with st.sidebar:
