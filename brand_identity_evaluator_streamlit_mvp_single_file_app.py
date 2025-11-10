@@ -24,6 +24,18 @@ from typing import List, Dict, Tuple
 
 import streamlit as st
 
+# --- Password Gate ---
+import streamlit as st
+
+st.title("🔒 Fashion Brand Identity Evaluator")
+
+password = st.text_input("Enter access password:", type="password")
+
+if password != "ARTX465":
+    st.warning("Access restricted. Please enter the correct password to continue.")
+    st.stop()  # Stops the app here until the correct password is entered
+
+
 # Try to import OpenAI client, but app also works without it (heuristic mode)
 try:
     from openai import OpenAI
